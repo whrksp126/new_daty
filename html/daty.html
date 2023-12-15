@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- GA:Google Tag Manager 코드 -->
+    <script type="text/javascript" src="../js/googleTagManager.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="호텔, 리조트, 펜션, 모텔, 생숙 등 숙박시설을 위한 가장 효과적인 수익 관리 시스템 DatAmenity">
+
+    <!-- 네이버블로그, 카카오톡 미리보기 설정 -->
+    <meta property="og:title" content="데이터메니티(DATAMENITY) :: 대한민국 1등 호텔 수익관리 시스템" />
+    <meta property="og:url" content="https://datamenity.com/" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="../images/meta_thum.png" />
+    <meta property="og:description" content="호텔, 리조트, 펜션, 모텔, 생숙 등 숙박시설을 위한 가장 효과적인 수익 관리 시스템 DatAmenity" />
+    <title>DATAMENITY :: Korea's No.1 Hospitality Revenue Management System</title>
+    <!-- 파비콘 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../static/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../static/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../static/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../static/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../static/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../static/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../static/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../static/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="../static/images/favicon/android-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../static/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../static/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../static/images/favicon/manifest.json">
+
+    <!-- 시작 초기 css 설정 -->
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    
+    <!-- 끝 초기 css 설정 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="../css/fullpage.css"> -->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/lang.css">
+
+    <!-- 다국어 세팅 -->
+    <script src="https://unpkg.com/i18next@19.8.5/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-xhr-backend@3.2.2/dist/umd/i18nextXHRBackend.min.js"></script>
+    <script src="../js/i18n.js"></script>
+    
+    
+    <!-- 전용 css -->
+    <link rel="stylesheet" href="../css/daty.css">
+
+</script>
+</head>
+
+<body>
+    
+    <div id="container">
+        <!-- 공통 모바일 메뉴 영역 -->
+        <div id="mobile-header"></div>
+        <!-- 공통 해더 영역 -->
+        <header id="header" class="header"></header>
+        <main>
+            <section class="section section-1">
+                <div class="container">
+                    <div class="top animation-box" data-animation="slide-down">
+                        <div class="text">
+                            <h2>
+                                <span data-i18n="객실가 결정">객실가 결정,</span>,
+                                <br class="mobile">
+                                <span data-i18n="OTA 가격 데이터 수집">OTA 가격 데이터 수집</span>,<br>
+                                <span data-i18n="엑셀 작성 휴먼 에러">엑셀 작성, 휴먼 에러 ..</span><br>
+                            </h2>
+                            <h2>
+                                <strong data-i18n="고민은 끝">고민은 끝,</strong>
+                                <br class="mobile en-desktop">
+                                <strong data-i18n="데이터메니티로 해결 👌">
+                                    데이터메니티로 해결 👌
+                                </strong>
+                            </h2>
+                        </div>
+                        <a class="btn m-btn btn-color-full" href="contact" data-i18n="데이터메니티 시작하기">데이터메니티 시작하기</a>
+                    </div>
+                    <div class="item-img animation-box" data-animation="slide-up">
+                        <img class="device" src="../static/images/daty/item_01_01_pc.png" alt="">
+                        <div class="item-inner-img">
+                            <img class="messenger" src="../static/images/daty/item_01_02_pc.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-2">
+                <div class="container">
+                    <div class="text animation-box" data-animation="slide-left">
+                        <h2>
+                            <span data-i18n="지금 데이터메니티를">지금, 데이터메니티를</span><br>
+                            <span data-i18n="시작해야하는 3가지 이유✨">시작해야하는 3가지 이유✨</span>
+                        </h2>
+                    </div>
+                    <div class="content animation-box" data-animation="slide-right">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="top">🔍</div>
+                                <div class="body">
+                                    <h2 data-i18n="최적의 객실가를 찾아주니까">최적의 객실가를 찾아주니까</h2>
+                                    <p data-i18n="데이터메니티에서는 빠르게 변화하는 시장 환경에서 최적의 객실가를 찾을 수 있습니다 완벽한 정보 수집으로 내 호텔의 매출을 상승시켜보세요">데이터메니티에서는 빠르게 변화하는 시장 환경에서 최적의 객실가를 찾을 수 있습니다. 완벽한 정보 수집으로 내 호텔의 매출을 상승시켜보세요.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="top">⌨</div>
+                                <div class="body">
+                                    <h2 data-i18n="일일이 입력할 필요 없으니까">일일이 입력할 필요 없으니까</h2>
+                                    <p data-i18n="일일이 수집하고 입력하지 않아도 자동으로 수집되는 데이터로 불필요한 업무량을 줄일 수 있습니다 데이터메니티가 호텔 업무의 든든한 비서가 되어드리겠습니다">일일이 수집하고 입력하지 않아도 자동으로 수집되는 데이터로 불필요한 업무량을 줄일 수 있습니다. 데이터메니티가 호텔 업무의 든든한 비서가 되어드리겠습니다.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="top">📱</div>
+                                <div class="body">
+                                    <h2 data-i18n="앱으로 쉽게 보니까">앱으로 쉽게 보니까</h2>
+                                    <p data-i18n="컴퓨터가 없어도 가격 변동 정보와 잘못 입력된 가격 신규 리뷰까지 포함한 알림을 앱으로 받아볼 수 있습니다">컴퓨터가 없어도 가격 변동 정보와 잘못 입력된 가격, 신규 리뷰까지 포함한 알림을 앱으로 받아볼 수 있습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-3">
+                <div class="container">
+                    <div class="text animation-box" data-animation="slide-left">
+                        <h2>
+                            <span data-i18n="데이터메니티">데이터메니티</span>,<br class="mobile">
+                            <strong data-i18n="이렇게 사용하세요️🙋‍♂️">이렇게 사용하세요️🙋‍♂️</strong>
+                        </h2>
+                    </div>
+                    <div class="content">
+                        <input type="radio" name="nav-guide" id="nav-dashborad" hidden checked>
+                        <input type="radio" name="nav-guide" id="nav-compar" hidden>
+                        <input type="radio" name="nav-guide" id="nav-review" hidden>
+                        <input type="radio" name="nav-guide" id="nav-setting" hidden>
+                        <div class="nav-tab animation-box" data-animation="fade-in">
+                            <button class="dashborad"><label for="nav-dashborad" data-i18n="대쉬보드">대쉬보드</label></button>
+                            <button class="compar"><label for="nav-compar" data-i18n="가격 비교">가격 비교</label></button>
+                            <button class="review"><label for="nav-review" data-i18n="리뷰 관리">리뷰 관리</label></button>
+                            <button class="setting"><label for="nav-setting" data-i18n="설정">설정</label></button>
+                        </div>
+                        <ul class="nav-item dashborad">
+                            <div class="swiper daty-03-01-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tab-content animation-box" data-animation="slide-right">
+                                            <img src="../static/images/daty/item_03_01_01_pc.png">
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="종합 데이터 확인">종합 데이터 확인</li>
+                                                <ul class="card-body">
+                                                        <li data-i18n="해당일의 가격, 리뷰 정보를 한 눈에 파악할 수 있습니다">
+                                                            해당일의 가격, 리뷰 정보를 한 눈에 파악할 수 있습니다.
+                                                        </li>
+                                                        <li data-i18n="해당일의 날씨, 축제 정보를 확인할 수 있습니다">
+                                                            해당일의 날씨, 축제 정보를 확인할 수 있습니다.
+                                                        </li>
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-01-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-01-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tab-content">
+                                            <img src="../static/images/daty/item_03_01_02_pc.png" >
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="자동 보고서 생성">자동 보고서 생성</li>
+                                                <ul class="card-body">
+                                                    <li data-i18n="30 ~ 90일간 가격정보를 엑셀(Excel)로 다운로드 할 수 있습니다">
+                                                        30 ~ 90일간 가격정보를 엑셀(Excel)로 다운로드 할 수 있습니다.
+                                                    </li>
+                                                    <li data-i18n="1일 ~ 2주 전 과거 가격과 비교한 보고서를 생성할 수 있습니다">
+                                                        1일 ~ 2주 전 과거 가격과 비교한 보고서를 생성할 수 있습니다.
+                                                    </li>
+                                                
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-01-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-01-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="nav-item compar">
+                            <div class="swiper daty-03-02-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tab-content">
+                                            <img src="../static/images/daty/item_03_02_01_pc.png" >
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="일간 객실가">일간 객실가</li>
+                                                <ul class="card-body">
+                                                    <li data-i18n="해당일에 판매되는 모든 객실 가격 정보를 확인할 수 있습니다"> 
+                                                        해당일에 판매되는 모든 객실 가격 정보를 확인할 수 있습니다.
+                                                    </li>
+                                                    <li data-i18n="해당일에 판매되는 객실 가격 변동 이력을 확인할 수 있습니다">
+                                                        해당일에 판매되는 객실 가격 변동 이력을 확인할 수 있습니다.
+                                                    </li>
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-02-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-02-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tab-content">
+                                            <img src="../static/images/daty/item_03_02_02_pc.png" >
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="월간 객실가">월간 객실가</li>
+                                                <ul class="card-body">
+                                                    <li data-i18n="한 달 동안의 최저가격을 관심 호텔과 비교할 수 있습니다">
+                                                        한 달 동안의 최저가격을 관심 호텔과 비교할 수 있습니다.
+                                                    </li>
+                                                    <li data-i18n="관심 호텔의 평균 가격과 우리 호텔의 최저가격을 비교하여 시각화합니다">
+                                                        관심 호텔의 평균 가격과 우리 호텔의 최저가격을 비교하여 시각화합니다. 
+                                                    </li>
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-02-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-02-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="nav-item review">
+                            <div class="swiper daty-03-03-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tab-content">
+                                            <img src="../static/images/daty/item_03_03_01_pc.png" >
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="리뷰 종합 관리">리뷰 종합 관리</li>
+                                                <ul class="card-body">
+                                                        <li data-i18n="모든 OTA의 리뷰를 종합하여 확인할 수 있습니다">
+                                                            모든 OTA의 리뷰를 종합하여 확인할 수 있습니다.
+                                                        </li>
+                                                        <li data-i18n="평점, 날짜, OTA, 대응 여부를 필터링하여 원하는 리뷰를 확인할 수 있습니다">
+                                                            평점, 날짜, OTA, 대응 여부를 필터링하여 원하는 리뷰를 확인할 수 있습니다.
+                                                        </li>
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-03-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-03-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tab-content">
+                                            <img src="../static/images/daty/item_03_03_02_pc.png" >
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="리뷰 분석">리뷰 분석</li>
+                                                <ul class="card-body">
+                                                    <li data-i18n="가격, 청결, 위치, 부대시설 등 카테고리별 긍·부정 키워드를 워드 클라우드로 확인할 수 있습니다">
+                                                        가격, 청결, 위치, 부대시설 등 카테고리별 긍·부정 키워드를 워드 클라우드로 확인할 수 있습니다.
+                                                    </li>
+                                                    <li data-i18n="고객 유형과 카테고리를 설정하여 고객 리뷰로 호텔의 강점과 취약점을 파악할 수 있습니다">
+                                                        고객 유형과 카테고리를 설정하여 고객 리뷰로 호텔의 강점과 취약점을 파악할 수 있습니다.
+                                                    </li>
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-03-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-03-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <ul class="nav-item setting">
+                            <div class="swiper daty-03-04-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tab-content">
+                                            <img src="../static/images/daty/item_03_04_01_pc.png" >
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="관심 호텔 설정">관심 호텔 설정</li>
+                                                <ul class="card-body">
+                                                    <li data-i18n="데이터를 수집할 OTA와 관심 호텔을 직접 설정하여 원하는 형태로 맞춤 서비스 이용이 가능합니다">
+                                                        데이터를 수집할 OTA와 관심 호텔을 직접 설정하여 원하는 형태로 맞춤 서비스 이용이 가능합니다.
+                                                    </li>
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-04-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-04-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tab-content">
+                                            <img src="../static/images/daty/item_03_04_02_pc.png" >
+                                            <div class="card">
+                                                <li class="card-top" data-i18n="객실 그룹 설정">객실 그룹 설정</li>
+                                                <ul class="card-body">
+                                                        <li data-i18n="객실 등급별 비교 그룹을 자유롭게 설정하여 호텔 맞춤 가격 비교가 가능합니다">
+                                                            객실 등급별 비교 그룹을 자유롭게 설정하여 호텔 맞춤 가격 비교가 가능합니다.
+                                                        </li>
+                                                </ul>
+                                                <div class="swiper-button-prev daty-03-04-swiper-button-prev">
+                                                    <i class="ph-caret-left"></i>
+                                                </div>
+                                                <div class="swiper-button-next daty-03-04-swiper-button-next">
+                                                    <i class="ph-caret-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="section section-4">
+                <div class="container">
+                    <div class="text">
+                        <h2>
+                            <span data-i18n="우리 호텔에 가장 적합한">우리 호텔에 가장 적합한</span><br>
+                            <strong data-i18n="요금제를 확인해보세요 😉">요금제를 확인해보세요 😉</strong>
+                        </h2>
+                    </div>
+                    <div class="content">
+                        <input type="radio" name="rate_plan" id="rate_plan_90" hidden checked>
+                        <input type="radio" name="rate_plan" id="rate_plan_30" hidden>
+                        <input type="radio" name="rate_plan" id="rate_plan_custom" hidden>
+                        <div class="tab animation-box" data-animation="fade-in">
+                            <button class="rate_plan_90"><label for="rate_plan_90">90<span data-i18n="일">일</span></label></button>
+                            <button class="rate_plan_30"><label for="rate_plan_30">30<span data-i18n="일">일</span></label></button>
+                            <button class="rate_plan_custom"><label for="rate_plan_custom">Customize</label></button>
+                        </div>
+                        <div class="cards">
+                            <div class="card plan-standard animation-box order-1" data-animation="slide-up">
+                                <div class="card-top">
+                                    <img src="../static/images/common/logo_datamenity_D.png" alt="">
+                                    <h2>
+                                        <span class="plan-90">Standard 90</span>
+                                        <span class="plan-30">Standard 30</span>
+                                    </h2>
+                                </div>
+                                <div class="card-middle">
+                                    <ul>
+                                        <li>
+                                            <span data-i18n="✅  제공 OTA">✅  제공 OTA  </span>
+                                            <strong data-i18n="4개">4개</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  관심 조회 호텔 수">✅  관심 조회 호텔 수 </span>
+                                            <strong data-i18n="6개">6개</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  데이터 수집 횟수">✅  데이터 수집 횟수  </span>
+                                            <strong data-i18n="6회">6회</strong>
+                                        </li>
+                                        <li>
+                                            <span class="plan-90" data-i18n="✅  데이터 수집 기간">✅  데이터 수집 기간  </span>
+                                            <strong class="plan-90" data-i18n="90일">90일</strong>
+                                            
+                                            <span class="plan-30" data-i18n="✅  데이터 수집 기간">✅  데이터 수집 기간  </span>
+                                            <strong class="plan-30" data-i18n="30일">30일</strong>
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-bottom">
+                                    <span class="cost plan-90" data-i18n="월 결제 시 169,000원">월 결제 시 169,000원</span><br class="plan-90">
+                                    <span class="cost plan-30" data-i18n="월 결제 시 129,000원">월 결제 시 129,000원</span><br class="plan-30">
+                                    <ul>
+                                        <li>
+                                            <span class="year" data-i18n="1년">1년</span>
+                                            <span class="discount-price plan-90" data-i18n="월 129,000원">월 129,000원</span>
+                                            <span class="discount-price plan-30" data-i18n="월 99,000원">월 99,000원</span>
+                                        </li>
+                                        <li>
+                                            <span class="year" data-i18n="2년">2년</span>
+                                        <span class="discount-price plan-90" data-i18n="월 89,000원">월 89,000원</span>
+                                        <span class="discount-price plan-30" data-i18n="월 69,000원">월 69,000원</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card plan-deluxe animation-box order-2" data-animation="slide-up">
+                                <div class="card-top">
+                                    <img src="../static/images/common/logo_datamenity_D_white.png" alt="">
+                                    <h2>
+                                        <span class="plan-90">Deluxe 90</span>
+                                        <span class="plan-30">Deluxe 30</span>
+                                    </h2>
+                                </div>
+                                <div class="card-middle">
+                                    <ul>
+                                        <li>
+                                            <span data-i18n="✅  제공 OTA">✅  제공 OTA  </span>
+                                            <strong data-i18n="6개">6개</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  관심 조회 호텔 수">✅  관심 조회 호텔 수</span>
+                                            <strong data-i18n="8개">8개</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  데이터 수집 횟수">✅  데이터 수집 횟수  </span>
+                                            <strong data-i18n="13회">13회</strong>
+                                        </li>
+                                        <li>
+                                            <span class="plan-90" data-i18n="✅  데이터 수집 기간">✅  데이터 수집 기간  </span>
+                                            <strong class="plan-90" data-i18n="90일">90일</strong>
+
+                                            <span class="plan-30" data-i18n="✅  데이터 수집 기간">✅  데이터 수집 기간  </span>
+                                            <strong class="plan-30" data-i18n="30일">30일</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-bottom">
+                                    <span class="cost plan-90" data-i18n="월 결제 시 189,000원">월 결제 시 189,000원</span><br class="plan-90">
+                                    <span class="cost plan-30" data-i18n="월 결제 시 159,000원">월 결제 시 159,000원</span><br class="plan-30">
+                                    <ul>
+                                        <li>
+                                            <span class="year" data-i18n="1년">1년</span>
+                                            <span class="discount-price plan-90" data-i18n="월 149,000원">월 149,000원</span>
+                                            <span class="discount-price plan-30" data-i18n="월 119,000원">월 119,000원</span>
+                                        </li>
+                                        <li>
+                                            <span class="year" data-i18n="2년">2년</span>
+                                        <span class="discount-price plan-90" data-i18n="월 109,000원">월 109,000원</span>
+                                        <span class="discount-price plan-30" data-i18n="월 89,000원">월 89,000원</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card plan-premium animation-box order-3" data-animation="slide-up">
+                                <div class="card-top">
+                                    <img src="../static/images/common/logo_datamenity_D_white.png" alt="">
+                                    <h2>
+                                        <span class="plan-90">Premium 90</span>
+                                        <span class="plan-30">Premium 30</span>
+                                    </h2>
+                                </div>
+                                <div class="card-middle">
+                                    <ul>
+                                        <li>
+                                            <span data-i18n="✅  제공 OTA">✅  제공 OTA  </span>
+                                            <strong data-i18n="8개">8개</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  관심 조회 호텔 수">
+                                                ✅  관심 조회 호텔 수 
+                                            </span>
+                                            <strong data-i18n="10개">10개</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  데이터 수집 횟수">
+                                                ✅  데이터 수집 횟수  
+                                            </span>
+                                            <strong class="plan-90" data-i18n="24회">24회</strong>
+                                            <strong class="plan-30" data-i18n="13회">13회</strong>
+                                        </li>
+                                        <li>
+                                            <span class="plan-90" data-i18n="✅  데이터 수집 기간">✅  데이터 수집 기간  </span>
+                                            <strong class="plan-90" data-i18n="90일">90일</strong>
+                                            <span class="plan-30" data-i18n="✅  데이터 수집 기간">✅  데이터 수집 기간  </span>
+                                            <strong class="plan-30" data-i18n="30일">30일</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-bottom">
+                                    <span class="cost plan-90" data-i18n="월 결제 시 399,000원">월 결제 시 399,000원</span><br class="plan-90">
+                                    <span class="cost plan-30" data-i18n="월 결제 시 259,000원">월 결제 시 259,000원</span><br class="plan-30">
+                                    <ul>
+                                        <li>
+                                            <span class="year" data-i18n="1년">1년</span>
+                                            <span class="discount-price plan-90" data-i18n="월 339,000원">월 339,000원</span>
+                                            <span class="discount-price plan-30" data-i18n="월 207,000원">월 207,000원</span>
+                                        </li>
+                                        <li>
+                                            <span class="year" data-i18n="2년">2년</span>
+                                        <span class="discount-price plan-90" data-i18n="월 249,000원">월 249,000원</span>
+                                        <span class="discount-price plan-30" data-i18n="월 139,000원">월 139,000원</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card plan-custom animation-box" data-animation="slide-up">
+                                <div class="card-top">
+                                    <img src="../static/images/common/logo_datamenity_D.png" alt="">
+                                    <h2>
+                                        <span>Customize</span>
+                                    </h2>
+                                </div>
+                                <div class="card-middle">
+                                    <ul>
+                                        <li>
+                                            <strong data-i18n="✅  자체 부킹엔진 구성">✅  자체 부킹엔진 구성</strong>
+                                        </li>
+                                        <li>
+                                            <strong data-i18n="✅  체인 호텔 종합 관리 페이지 제공">✅  체인 호텔 종합 관리 페이지 제공</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  관심 조회 호텔 수">✅  관심 호텔 조회 수 </span>
+                                            <strong data-i18n="무제한">무제한</strong>
+                                        </li>
+                                        <li>
+                                            <span data-i18n="✅  데이터 수집 기간 최대">✅  데이터 수집 기간 최대 </span>
+                                            <strong data-i18n="180일">180일</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="customize-description">
+                                    <h2>Customize❓</h2>
+                                    <span data-i18n="특수한 형태의 호텔 및 기업 고객을 위하여 필요에 따른 맞춤형 설계가 가능합니다">특수한 형태의 호텔 및 기업 고객을 위하여
+                                        필요에 따른 맞춤형 설계가 가능합니다.
+                                    </span>
+                                    <span data-i18n="Customize 견적 상담 시 담당 영업사원이 배정되며 필요한 사항에 대한 체크 후 기능 및 비용이 결정됩니다">
+                                        Customize 견적 상담 시 담당 영업사원이 
+                                        배정되며, 필요한 사항에 대한 체크 후 기능 
+                                        및 비용이 결정됩니다.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 공통 서비스 신청 버튼 영역 -->
+            <div id="request-service-area" class="request-service-area"></div>
+        </main>
+        <!-- 공통 푸터 영역 -->
+        <footer id="footer" class="footer scroll-item"></footer>
+        <!-- 공통 고정 무료 이용 버튼 -->
+        <div id="fix-content"></div>
+    </div>
+
+    <!-- 공통 스크립트 -->
+    <script src="../js/common_html.js"></script>
+    <!-- <script src="../js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <!-- <script src="../js/fullpage.js"></script> -->
+    <script src="../js/common.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- 전용 js -->
+    <script src="../js/daty.js"></script>
+    <script src="../js/animation.js"></script>
+
+</body>
+</html>

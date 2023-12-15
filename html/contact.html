@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- GA:Google Tag Manager 코드 -->
+    <script type="text/javascript" src="../js/googleTagManager.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="호텔, 리조트, 펜션, 모텔, 생숙 등 숙박시설을 위한 가장 효과적인 수익 관리 시스템 DatAmenity">
+
+    <!-- 네이버블로그, 카카오톡 미리보기 설정 -->
+    <meta property="og:title" content="데이터메니티(DATAMENITY) :: 대한민국 1등 호텔 수익관리 시스템" />
+    <meta property="og:url" content="https://datamenity.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../images/meta_thum.png" />
+    <meta property="og:description" content="호텔, 리조트, 펜션, 모텔, 생숙 등 숙박시설을 위한 가장 효과적인 수익 관리 시스템 DatAmenity" />
+    <title>DATAMENITY :: Korea's No.1 Hospitality Revenue Management System</title>
+    <!-- 파비콘 -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../static/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../static/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../static/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../static/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../static/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../static/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../static/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../static/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="../static/images/favicon/android-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../static/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../static/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../static/images/favicon/manifest.json">
+
+    <!-- 시작 초기 css 설정 -->
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <!-- 끝 초기 css 설정 -->
+    <!-- <link rel="stylesheet" href="../css/fullpage.css"> -->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/lang.css">
+
+    <!-- 다국어 세팅 -->
+    <script src="https://unpkg.com/i18next@19.8.5/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-xhr-backend@3.2.2/dist/umd/i18nextXHRBackend.min.js"></script>
+    <script src="../js/i18n.js"></script>
+
+    <!-- 전용 css -->
+    <link rel="stylesheet" href="../css/contact.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <!-- 공통 모바일 메뉴 영역 -->
+        <div id="mobile-header"></div>
+        <!-- 공통 해더 영역 -->
+        <header id="header" class="header"></header>
+        <main>
+            <section class="section section-1">
+                <div class="container">
+
+                    <div class="top animation-box" data-animation="slide-left">
+                        <div class="text">
+                            <h2>
+                                <span data-i18n="진심을 데이터로,">호텔 업무를 스마트하게,</span><br>
+                                <strong data-i18n="데이터메니티와 함께 💌">데이터메니티와 함께 💌</strong>
+                            </h2>
+                            <p>*<span data-i18n="은 필수 입력 항목입니다">은 필수 입력 항목입니다</span>.</p>
+                        </div>
+                    </div>
+                    <div class="middle animation-box" data-animation="slide-right">
+                        <input type="radio" name="inquiry" id="service" value="service" onchange="changeValidateForm(event)" hidden checked>
+                        <input type="radio" name="inquiry" id="partner" value="partner" onchange="changeValidateForm(event)" hidden>
+                        <div class="tab">
+                            <button class="service"><label for="service" data-i18n="서비스 이용 문의">서비스 이용 문의</label></button>
+                            <button class="partner"><label for="partner" data-i18n="파트너 및 제휴 문의">파트너 및 제휴 문의</label></button>
+                        </div>
+                        <form onsubmit="sendEmail_u(event); return false">
+                            <div class="inputs">
+                                <div class="input-line">
+                                    <label for="name"><span data-i18n="이름">이름</span>*</label>
+                                    <input type="text" name="name" placeholder="담당자 이름을 입력해주세요." required>
+                                </div>
+                                <div class="input-line">
+                                    <label for="position" data-i18n="직책">직책</label>
+                                    <input type="text" name="position" placeholder="직책을 입력해주세요.">
+                                </div>
+                                <div class="input-line service">
+                                    <!-- 서비스 온니 -->
+                                    <label for="position"><span data-i18n="호텔명">호텔명</span>*</label>
+                                    <input type="text" class="service" name="company_name" placeholder="호텔명을 입력해주세요." required>
+                                </div>
+                                <div class="input-line partner">
+                                    <!-- 파트너 온니 -->
+                                    <label for="position"><span data-i18n="회사명">회사명</span>*</label>
+                                    <input type="text" class="partner" name="position" placeholder="회사명을 입력해주세요.">
+                                </div>
+                                <div class="input-line">
+                                    <label for="email"><span data-i18n="이메일">이메일</span>*</label>
+                                    <input type="text" name="email" placeholder="이메일을 입력해주세요." required>
+                                </div>
+                                <div class="input-line service">
+                                    <!-- 서비스 온니 -->
+                                    <label for="address" data-i18n="주소">주소</label>
+                                    <input type="text" name="address" placeholder="영업 주소를 입력해주세요.">
+                                </div>
+                                <div class="input-line">
+                                    <label for="tell"><span data-i18n="전화번호">전화번호</span>*</label>
+                                    <input type="text" name="tell" placeholder="연락받으실 전화번호를 입력해주세요." required>
+                                </div>
+                                <div class="input-line">
+                                    <label for="content"><span data-i18n="문의내용">문의내용</span>*</label>
+                                    <input type="text" name="content" placeholder="문의하실 내용을 입력하세요." required>
+                                </div>
+                            </div>
+                            <div class="checkboxs">
+                                <div class="box-line full-agreement">
+                                    <input type="checkbox" onchange="checkAllHandler(event)" class="check-all" id="full-agreement" hidden>
+                                    <label for="full-agreement" >
+                                        <i class="ph-check-circle"></i>
+                                        <i class="ph-check-circle-fill checked"></i>
+                                        <span><span data-i18n="전체 동의합니다">전체 동의합니다</span>.</span>
+                                    </label>
+                                </div>
+                                <div class="box-line">
+                                    <input type="checkbox" onchange="checkNotAllHandler(event)" name="check_service" class="input-terms" id="terms-of-service" style="display:none" >
+                                    <label for="terms-of-service">
+                                        <i class="ph-check-circle"></i>
+                                        <i class="ph-check-circle-fill checked"></i>
+                                        <span>[<span data-i18n="필수">필수</span>] <span data-i18n="Datamenity 서비스 이용약관에 동의합니다">Datamenity 서비스 이용약관에 동의합니다</span>.
+                                        </span>
+                                    </label>
+                                    <button type="button" onclick="openModal('service')"
+                                        class="btn xxs-btn btn-white-outline" data-i18n="약관보기">약관보기</button>
+                                </div>
+                                <div class="box-line">
+                                    <input type="checkbox" onchange="checkNotAllHandler(event)" name="check_privacy" class="input-terms" id="collection-of-personal-information" style="display:none" >
+                                    <label for="collection-of-personal-information">
+                                        <i class="ph-check-circle"></i>
+                                        <i class="ph-check-circle-fill checked"></i>
+                                        <span>
+                                            [<span data-i18n="필수">필수</span>] <span data-i18n="Datamenity 개인정보 수집 및 이용에 동의합니다">Datamenity 개인정보 수집 및 이용에 동의합니다</span>.
+                                        </span>
+                                    </label>
+                                    <button type="button" onclick="openModal('personal')"
+                                        class="btn xxs-btn btn-white-outline" data-i18n="약관보기">약관보기</button>
+                                </div>
+                                <div class="box-line">
+                                    <input type="checkbox" onchange="checkNotAllHandler(event)" name="check_marketing" class="input-terms" id="receive-information" style="display:none">
+                                    <label for="receive-information">
+                                        <i class="ph-check-circle"></i>
+                                        <i class="ph-check-circle-fill checked"></i>
+                                        <span>
+                                            [<span data-i18n="선택">선택</span>] <span data-i18n="Datamenity 소식 및 정보 수신에 동의합니다">Datamenity 소식 및 정보 수신에 동의합니다</span>.
+                                        </span>
+                                    </label>
+                                    <button type="button" onclick="openModal('receive')"
+                                        class="btn xxs-btn btn-white-outline" data-i18n="약관보기">약관보기</button>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn m-btn btn-color-outline" data-i18n="서비스 이용 문의하기">서비스 이용 문의하기</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- 공통 푸터 영역 -->
+        <footer id="footer" class="footer"></footer>
+    </div>
+    <div id="modal" class="modal"></div>
+    <!-- 공통 스크립트 -->
+    <script src="../js/common_html.js"></script>
+    <!-- <script src="../js/bootstrap.min.js"></script> -->
+    <!-- <script src="../js/fullpage.js"></script> -->
+    <script src="../js/animation.js"></script>
+    <script src="../js/common.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- 전용 js -->
+    <script src="../js/terms_html.js"></script>
+    <script src="../js/contact.js"></script>
+
+
+</body>
+
+</html>

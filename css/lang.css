@@ -1,0 +1,39 @@
+.en-desktop {
+    display: none;
+}
+.en-tablet{
+    display: none;
+}
+.en-mobile{
+    display: none;
+}
+html[lang=en] .en-desktop{
+    display: none !important;
+}
+html[lang=en] .en-tablet{
+    display: none !important;
+}
+html[lang=en] .en-mobile{
+    display: none !important;
+}
+
+/* desktop */
+@media (min-width: 993px) {
+    html[lang=en] .en-desktop {
+        display: inherit !important;
+    }
+}
+
+/* tablet */
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    html[lang=en] .en-tablet {
+        display: inherit !important;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    html[lang=en] .en-mobile {
+        display: inherit !important;
+    }
+}

@@ -1,0 +1,164 @@
+
+{
+  "해더" : "해더", 
+  "데이터메니티" : "Datamenity",
+  "함께하는 호텔" : "Hotels with us",
+  "히어로웍스" : "HEROWORKS",
+  "문의하기" : "Contact Us",
+  "비전과 하는 일" : "vision and work",
+  "팀 문화" : "team culture ",
+  "채용 공고" : "job posting ",
+  "로그인" : "log in",
+
+"푸터" : "푸터",
+  "본사" : "Headquarters ",
+  "부산광역시 해운대구" : "30 Centum-ro, Haeundae-gu, ",
+  "센텀서로30 KNN타워 20층" : "Busan, 20th floor of KNN Tower",
+  "부산광역시 해운대구 센텀서로30, KNN타워 20층" : " 30 Centum-ro, Haeundae-gu, Busan, 20th floor of KNN Tower",
+  "점심시간" : "lunch hours",
+
+"스마트한 호텔 수익관리, 데이터메니티로 시작하세요"  : "스마트한 호텔 수익관리, 데이터메니티로 시작하세요",
+  "스마트한 호텔 수익관리" : "Start smart hotel revenue management",
+  "스마트한 호텔" : "Start smart hotel",
+  "수익관리" : " revenue management",
+  "데이터메니티로 시작하세요" : "with Datamenty",
+  "서비스 신청하기" : "Apply for service",
+
+"이미 국내에서도 수많은 호텔들이 데이터기반 수익관리를 시작했어요 🏨" : "이미 국내에서도 수많은 호텔들이 데이터기반 수익관리를 시작했어요 🏨",
+  "이미 국내에서도" : "Many hotels in",
+  "수많은 호텔들이" : "Korea have already",
+  "데이터기반 수익관리를" : "started revenue management",
+  "시작했어요 🏨" : "based on data 🏨",
+  "고객 사례 더보기" : "See more cases",
+
+"무료" : "Free",
+  "이용" : "use",
+  "신청하기 👀" : "apply 👀",
+
+
+  "객실가 결정" : "Set room rates",
+  "OTA 가격 데이터 수집" : "gather OTA prices",
+  "엑셀 작성 휴먼 에러" : "make Excel sheet, avoid mistakes",
+  "고민은 끝" : "Don't worry, Datamenity ",
+  "데이터메니티로 해결 👌" : "has you covered 👌",
+  "데이터메니티 시작하기" : "Start with Datamenity",
+
+
+  "지금 데이터메니티를" : "3 reasons why you should",
+  "시작해야하는 3가지 이유✨" : "start with Datamenity now ✨",
+  "최적의 객실가를 찾아주니까" : "Because it finds the optimal room rates for you",
+  "데이터메니티에서는 빠르게 변화하는 시장 환경에서 최적의 객실가를 찾을 수 있습니다 완벽한 정보 수집으로 내 호텔의 매출을 상승시켜보세요" : "At Datamenity, you can find the optimal room rates in a fast-changing market environment. Increase your hotel's revenue with complete information collection.",
+  "일일이 입력할 필요 없으니까" : "No need for manual input",
+  "일일이 수집하고 입력하지 않아도 자동으로 수집되는 데이터로 불필요한 업무량을 줄일 수 있습니다 데이터메니티가 호텔 업무의 든든한 비서가 되어드리겠습니다" : "With automatically collected data, you can reduce unnecessary workload without the need for manual collection and input. Datamenity will be a reliable assistant for hotel tasks.",
+  "앱으로 쉽게 보니까" : "Easily accessible through the app",
+  "컴퓨터가 없어도 가격 변동 정보와 잘못 입력된 가격 신규 리뷰까지 포함한 알림을 앱으로 받아볼 수 있습니다" : "With Datamenity's mobile app, you can receive notifications on price fluctuations, incorrectly entered prices, and new reviews, even if you don't have access to a computer.",
+
+  
+
+  "이렇게 사용하세요️🙋‍♂️" : "Here's how to use it️🙋‍♂️",
+  "대쉬보드" : "Dashboard",
+  "가격 비교" : "Price",
+  "리뷰 관리" : "Review",
+  "설정" : "Settings",
+  "종합 데이터 확인" : "View overall data",
+  "해당일의 가격, 리뷰 정보를 한 눈에 파악할 수 있습니다" : "View price and review info for the day at a glance.",
+  "해당일의 날씨, 축제 정보를 확인할 수 있습니다" : "Check weather and festival info for the day.",
+  "자동 보고서 생성" : "Auto report generation",
+  "30 ~ 90일간 가격정보를 엑셀(Excel)로 다운로드 할 수 있습니다" : "Download 30-90 days price data in Excel format.",
+  "1일 ~ 2주 전 과거 가격과 비교한 보고서를 생성할 수 있습니다" : "Generate price comparison report for 1 day to 2 weeks ago.",
+  "일간 객실가" : "Daily room rate",
+  "해당일에 판매되는 모든 객실 가격 정보를 확인할 수 있습니다" : "You can check all the room prices sold on that day.",
+  "해당일에 판매되는 객실 가격 변동 이력을 확인할 수 있습니다" : "Track daily room price fluctuations.",
+  "월간 객실가" : "Monthly room rate",
+  "한 달 동안의 최저가격을 관심 호텔과 비교할 수 있습니다" : "Compare monthly lowest prices with favorite hotels.",
+  "관심 호텔의 평균 가격과 우리 호텔의 최저가격을 비교하여 시각화합니다" : "Compare favorite hotels' avg. price with our lowest visually.",
+  "리뷰 종합 관리" : "Full review management",
+  "모든 OTA의 리뷰를 종합하여 확인할 수 있습니다" : "You can check all OTA reviews in one place.",
+  "평점, 날짜, OTA, 대응 여부를 필터링하여 원하는 리뷰를 확인할 수 있습니다" : "Filter reviews by various criteria to find desired ones.",
+  "리뷰 분석" : "Review analysis",
+  "가격, 청결, 위치, 부대시설 등 카테고리별 긍·부정 키워드를 워드 클라우드로 확인할 수 있습니다" : "Sort words, make word cloud, analyze feelings.",
+  "고객 유형과 카테고리를 설정하여 고객 리뷰로 호텔의 강점과 취약점을 파악할 수 있습니다" : "Classify clients and feedback to find hotel pros/cons.",
+  "관심 호텔 설정":"Favorite hotel settings",
+  "데이터를 수집할 OTA와 관심 호텔을 직접 설정하여 원하는 형태로 맞춤 서비스 이용이 가능합니다" : "Customize data collection with preferred OTAs and hotels in desired format.",
+  "객실 그룹 설정":"Room group settings",
+  "객실 등급별 비교 그룹을 자유롭게 설정하여 호텔 맞춤 가격 비교가 가능합니다" : "Feel free to set comparison groups by room type as you wish",
+
+
+  "우리 호텔에 가장 적합한" : "The most suitable for our hotel",
+  "요금제를 확인해보세요 😉": "Please check the pricing plan 😉",
+  "일":"days",
+  "30일" : "30days",
+  "90일" : "90days",
+  "180일" : "180days",
+  "✅  제공 OTA" : "✅ Provided OTA",
+  "개" : "items",
+  "4개" : "4items",
+  "6개" : "6items",
+  "8개" : "8items",
+  "10개" : "10items",
+  "회" : "times",
+  "6회" : "6times",
+  "13회" : "13times",
+  "24회" : "24times",
+  "✅  관심 조회 호텔 수" : "✅ Number of hotels viewed with interest",
+  "✅  데이터 수집 횟수" : "✅ Number of data collections",
+  "✅  데이터 수집 기간" : "✅ Data collection period",
+  "1년" : "1y",
+  "2년" : "2y",
+
+  "스탠다드" : "스탠다드",
+  "월 결제 시 169,000원" : "Annual sub: 169,000 ₩/m",
+  "월 결제 시 129,000원" : "Annual sub: 129,000 ₩/m",
+  "월 129,000원" : "129,000 ₩/m",
+  "월 99,000원" : "99,000 ₩/m",
+  "월 89,000원" : "89,000 ₩/m",
+  "월 69,000원" : "69,000 ₩/m",
+
+  "//디럭스" : "디럭스",
+  "월 결제 시 189,000원" : "Annual sub: 189,000 ₩/m",
+  "월 결제 시 159,000원" : "Annual sub: 159,000 ₩/m",
+  "월 119,000원" : "119,000 ₩/m",
+  "월 149,000원" : "149,000 ₩/m",
+  "월 109,000원" : "109,000 ₩/m",
+
+  "//프리미엄" : "프리미엄",
+  "월 결제 시 399,000원" : "Annual sub: 399,000 ₩/m",
+  "월 결제 시 259,000원" : "Annual sub: 259,000 ₩/m",
+  "월 339,000원" : "339,000 ₩/m",
+  "월 207,000원" : "207,000 ₩/m",
+  "월 249,000원" : "249,000 ₩/m",
+  "월 139,000원" : "139,000 ₩/m",
+
+  "//커스터마이즈" : "커스터마이즈",
+  "✅  자체 부킹엔진 구성" : "✅ Setting up proprietary booking engine.",
+  "✅  체인 호텔 종합 관리 페이지 제공" : "✅ Providing integrated management page for chain hotels",
+  "무제한" : "Unlimited",
+  "✅  데이터 수집 기간 최대" : "✅ Maximum data collection period ",
+  "특수한 형태의 호텔 및 기업 고객을 위하여 필요에 따른 맞춤형 설계가 가능합니다" : "Customized design is available according to the needs of special types of hotels and corporate clients.",
+  "Customize 견적 상담 시 담당 영업사원이 배정되며 필요한 사항에 대한 체크 후 기능 및 비용이 결정됩니다" : "When requesting a customized estimate consultation, a dedicated sales representative will be assigned, and after checking the necessary details, the functions and costs will be determined."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,701 @@
+/* 시작 section-1 */
+#container {
+    overflow: hidden;
+}
+
+.section-1 {
+    position: relative;
+}
+.section-1 .container{
+    display: flex;
+    align-items: center;
+}
+.section-1 .container .content{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+}
+.section-1 .container .content .lg-text{
+    position: relative;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+}
+.section-1 .container .content .lg-text #wordbox {
+    position: absolute;
+    width: 170px;
+    border-bottom: 2px solid #fff;
+    color: #ff3900;
+}
+html[lang=en] .section-1 .container .content .lg-text #wordbox {
+    width: 240px;
+}
+.section-1 .container .content .lg-text i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+    transform: translateY(-50%) rotate(180deg);
+}
+.section-1 .container .content .lg-text p {
+
+}
+.section-1 .container .content .lg-text p .text-1{
+    margin-left: 182px;
+}
+html[lang=en] .section-1 .container .content .lg-text p .text-1 {
+    margin-left: 262px;
+}
+.section-1 .container .content .lg-text p .text-2{
+    letter-spacing: -0.04em;
+}
+.section-1 .container .content button {
+    display: block;
+}
+.section-1 .btn-quick {
+    color: #fff;
+}
+
+
+
+
+.slottt-machine-recipe__mask {
+    width: 100%;
+    height: 100px;
+    overflow: hidden; 
+    position: relative;
+    display: inline-block;
+    margin-bottom: -40px;
+}
+
+.slottt-machine-recipe__items_container {
+    position: absolute;
+}
+
+.slottt-machine-recipe__item {
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-size: contain;
+}
+
+
+/* .slottt-machine-recipe__items_container {
+    position: absolute;
+    line-height: 52px;
+}
+
+.slottt-machine-recipe__mask {
+    position: relative;
+    height: 76px;
+    overflow: hidden;
+}
+.slottt-machine-recipe__item {
+    position: relative;
+    height: 76px;
+    display: block;
+    top: 0px;
+} */
+
+/* 끝 section-1 */
+
+/* 시작 section-2 */
+.section-2 {
+    background: var(--background-color-f5);
+}
+.section-2 .container{
+}
+.section-2 .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    height: 100vh;
+}
+.section-2 .content h2{
+    margin-bottom: 20px;
+}
+.section-2 .content p{
+    max-width: 340px;
+    width: 100%;
+    font-size: var(--font-size-small);
+}
+
+.section-2 .content .item-img {
+    flex: 1;
+    max-width: max-content;
+}
+.section-2 .content .item-img img{
+    width: auto;
+    max-height: 500px;
+}
+
+.section-2 .main-02-swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.section-2 .main-02-swiper-button-next {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
+
+/* 끝 section-2 */
+
+/* 시작 section-3 */
+.section-3 {
+
+}
+.section-3 .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.section-3 .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.section-3 .text h2 br{
+    display: none;
+}
+.section-3 .middle{
+    position: relative;
+}
+.section-3 .middle .swiper-slide {
+    opacity: 0.3;
+    transition: opacity .8s
+}
+.section-3 .swiper-button-prev, 
+.section-3 .swiper-rtl .swiper-button-next{
+    left: -40px;
+}
+.section-3 .swiper-button-next, 
+.section-3 .swiper-rtl .swiper-button-prev{
+    right: -40px;
+}
+.section-3 .middle .swiper-slide.swiper-slide-active {
+    opacity: 1;
+}
+.section-3 .middle .wrap-iframe{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.section-3 .middle .wrap-iframe iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.section-3 .swiper {
+    width: 100%;
+    
+}
+
+.section-3 .swiper-pagination-bullet,
+.section-3 .swiper-pagination-bullet-active {
+    background: #fff;
+}
+.section-3 .swiper-slide {
+    width: 18.75rem;
+    /* height: 28.125rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+}
+
+.section-3 .bottom {
+    display: none;
+}
+  
+
+/* 끝 section-3 */
+
+/* 시작 section-4 */
+.section-4 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--font-color-ff);
+}
+.section-4 .container .balloon{
+    position: relative;
+    margin-bottom: 16px;
+}
+.section-4 .container .balloon img{
+    height: 59px;
+}
+.section-4 .container .balloon div{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--font-color-11);
+}
+.section-4 .text h2 {
+    color: var(--font-color-ff);
+}
+.section-4 .container .arrows{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 746px;
+    max-height: 746px;
+    width: 100%;
+    height: 100%;
+    margin-top: 64px;
+}
+.section-4 .container .arrows > div {
+    position:absolute;
+}
+.section-4 .container .arrows .blue-arrow {
+    bottom: -40px;
+    left: 0;
+    
+}
+.section-4 .container .arrows .red-arrow {
+    top: -40px;
+    right: 0;
+}
+.section-4 .container .arrows > div > .content {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+.section-4 .container .arrows .blue-arrow .content {
+    bottom: 27.29%;
+}
+.section-4 .container .arrows .red-arrow .content {
+    top: 27.29%;
+    
+}
+.section-4 .container .arrows .content h3{
+    font-size: var(--font-size-medium);
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.section-4 .container .arrows .content h2{
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.section-4 .container .arrows .content p{
+    font-weight: 400;
+    font-size: var(--font-size-small);
+    line-height: 23px;
+}
+.section-4 .container .arrows img {
+    max-height: 700px;
+    width: auto;
+}
+.section-4 .btn-quick {
+    color: #fff;
+}
+/* 끝 section-4 */
+
+/* 시작 section-5 */
+.section-5 {
+    display: flex;
+    flex-flow: column;
+}
+.section-5 .top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36.6%;
+    background: var(--background-color-f5);
+    text-align: center;
+}
+.section-5 .top::after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    width: 0;    
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 40px solid var(--background-color-f5);
+}
+.section-5 .top .text h2 br{
+    display: none;
+}
+.section-5 .bottom{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 50%; */
+    flex: 1;
+    gap: 35px;
+}
+.section-5 .bottom .logo img {
+    height: 70px;
+}
+.section-5 .bottom .item-img img {
+    max-height: 236px;
+}
+/* 끝 section-5 */
+
+
+
+
+/*시작 section-6 */
+
+.section-6 {
+    background: var(--background-color-f5);
+}
+.section-6 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-6 .content {
+    position: relative;
+    max-width: 1220px;
+    max-height: 636px;
+    width: 100%;
+    height: 100%;
+}
+.section-6 .content img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 500px;
+    height: 100%;
+}
+
+/* 끝 section-6 */
+
+
+/* 시작 section-7 */
+
+/* .section-7 {
+    background: var(--background-color-11);
+} */
+/* .section-7 .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+} */
+/* .section-7 .container .text {
+    text-align: center;
+    color: var(--font-color-ff);
+} */
+/* .section-7 .container .text h2 {
+    margin: 0;
+} */
+/* .section-7 .container .middle {
+    max-width: 1580px;
+    width: 100%;
+    height: 230px;
+    margin: 80px 0;
+} */
+
+/* 끝 section-7 */
+
+
+
+/* 테블릿 시작 */
+@media (max-width: 992px) {
+
+    .section-2 .content {
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-2 .content h2 br{
+        display: none;
+    }
+    .section-2 .content p {
+        max-width: 675px;
+        margin: 0 auto;
+    }
+    .section-2 .main-02-swiper-button-prev {
+        left: 30px;
+    }
+    .section-2 .main-02-swiper-button-next{
+        right: 30px;
+    }
+    .section-2 .content .item-img {
+        flex: initial;
+        max-width: initial;
+    }
+
+    .section-3 .container {
+        /* max-width: 100%; */
+        /* padding: 0; */
+    }
+    .section-3 .top {
+        justify-content: center;
+    }
+    .section-3 .top a{
+        display: none;
+    }
+    .section-3 .middle img{
+        max-height: 460px;
+    }
+
+    .section-3 .bottom {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+
+    .section-4 .container {
+        flex-flow: column;
+        justify-content: center;
+        padding-top: 64px;
+    }
+    .section-4 .container .balloon {
+        display: flex;
+        justify-content: center;
+    }
+    .section-4 .container .arrows {
+        margin-bottom: 40px;
+    }
+    .section-4 .text h2 br {
+        display: none;
+    }
+    .section-5 .bottom{
+        gap: 45px;
+    }
+
+    .section-5 .bottom .item-img img {
+        max-height: 226px;
+    }
+
+
+    .section-6 .content{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        gap: 60px;
+        text-align: center;
+    }
+    .section-6 .content .text {
+        align-items: center;
+    }
+    .section-6 .content img {
+        position: relative;
+        max-height: 450px;
+        object-fit: contain;
+    }
+
+
+    .section-7 .container .middle {
+        margin: 60px 0;
+    }
+    
+
+
+
+
+}
+/* 모바일 시작 */
+@media (max-width: 768px) {
+    .section-1 .container .content{
+        gap: 25px;
+    }
+    .section-1 .container .content .lg-text {
+        font-size: 30px;
+    }
+    .section-1 .container .content .lg-text i {
+        font-size: 13px;
+    }
+    .section-1 .container .content .lg-text #wordbox{
+        width: 112px;
+        height: 50px;
+    }
+    html[lang=en] .section-1 .container .content .lg-text #wordbox {
+        width: 140px;
+    }
+    .section-1 .container .content .lg-text p .text-1 {
+        margin-left: 121px;
+    }
+    html[lang=en] .section-1 .container .content .lg-text p .text-1 {
+        margin-left: 152px;
+    }
+    .slottt-machine-recipe__mask {
+        height: 50.5px;
+        margin-bottom: 0;
+    }
+    .slottt-machine-recipe__item {
+        height: 50px;
+    }
+    .slottt-machine-recipe__items_container {
+        list-style: 26px;
+    }
+    .section-2 .container {
+        width: max-content;
+    }
+    .section-2 .container .swiper{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .section-2 .content {
+        gap: 40px;
+    }
+    .section-2 .content h2{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-2 .content h2 br{
+        display: block;
+    }
+    .section-2 .content p {
+        max-width: 350px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .section-2 .content .item-img img {
+        max-height: 215px;
+    }
+
+    .section-2 .main-02-swiper-button-prev {
+        left: -2%;
+    }
+    .section-2 .main-02-swiper-button-next {
+        right: -2%;
+    }
+
+
+    .section-3 .top h2 br {
+        display: block;
+    }
+    .section-3 .top {
+        margin-bottom: 40px;
+    }
+    .section-3 .middle {
+        position: relative;
+        margin: 0 auto;
+        /* height: 190px;
+        width: auto; */
+    }
+    .section-3 .swiper{
+        max-width: 300px;
+    }
+    .section-3 .bottom {
+        margin-top: 40px;
+    }
+    .section-3 .swiper-button-next, 
+    .section-3 .swiper-rtl .swiper-button-prev{
+        right: -10%;
+    }
+    .section-3 .swiper-button-prev, 
+    .section-3 .swiper-rtl .swiper-button-next{
+        left: -10%;
+    }
+
+
+    .section-4 .text {
+        text-align: center;
+    }
+
+    .section-4 .text h2 br {
+        display: block;
+    }
+
+    .section-4 .container .balloon {
+        margin-bottom: 8.5px;
+    }
+    .section-4 .container .balloon div {
+        width: 149px;
+        padding: 7px 16px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20.5px;
+
+    }
+    .section-4 .container .balloon img {
+        height: 42px;
+    }
+
+    .section-4 .container .arrows{
+        max-width: 360.825px;
+        max-height: 360px;
+        margin-top: 15px;
+    }
+    .section-4 .container .arrows img {
+        max-height: 337.8px;
+    }
+
+    .section-4 .container .arrows .content h3{
+        font-size: 9px;
+        line-height: 13px;
+        margin-bottom: 10px;
+    }
+    .section-4 .container .arrows .content h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .section-4 .container .arrows .content p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .section-5 .top::after{
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        width: 0;
+        height: 0;
+        border-left: 17.5px solid transparent;
+        border-right: 17.5px solid transparent;
+        border-top: 20px solid var(--background-color-f5);
+    }
+
+    .section-5 .bottom {
+        gap: 19.8px;
+    }
+    .section-5 .bottom .logo img {
+        height: 30.79px;
+    }
+    .section-5 .bottom .item-img img {
+        max-height: 99.415px;
+    }
+
+
+
+
+    .section-6 .content {
+        gap: 40px;
+    }
+    .section-6 .content img {
+        max-height: 225px;
+    }
+
+
+
+    .section-7 .container .middle {
+        margin: 40px 0;
+    }
+}

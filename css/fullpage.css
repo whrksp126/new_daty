@@ -1,0 +1,44 @@
+section.section {
+    position: relative;
+    height: calc(var(--vh, 1vh) * 100);
+    z-index: 0;
+    
+}
+.scroll-item{
+    position: relative;
+}
+.quick-menu {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    list-style: none;
+    z-index: 300;
+}
+
+.quick-item {
+    margin: 8px 0;
+}
+/* 
+.btn-quick {
+    cursor: pointer;
+    opacity: .5;
+    font-size: 18px;
+    font-weight: 600;
+    color: #616161;
+    background: 0;
+}
+
+.btn-quick.current,
+.btn-quick:hover {
+    opacity: 1;
+} */
+
+.btn-quick {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    z-index: 5;
+    font-size: 30px;
+    color: #ccc;
+}
